@@ -1,0 +1,14 @@
+Array
+(
+    [auto] => wenwen
+    [title] => 最新修复优化第四方聚合支付美化版 可对接支付宝 微信 银联等
+    [content] => 最新修复优化第四方聚合支付美化版，可对接支付宝 微信 银联等等，代码全开源无后门支持二次开发！自适应手机端！带完整安装教程跟支付接口的接入文档，需要的朋友可以验体验！ 测试环境：PHP5.4+MYSQL
+    [category_id] => 支付充值
+    [file_size] => 20.6
+    [down_url] => https://pan.baidu.com/s/19Yev4bYSMqbkYutF3dnh_A
+    [status] => 1
+    [issuer] => admin
+    [level] => 0
+    [picrure] => http://www.asp300.net/2012uploadpic/2019-2-24/6563020192241800531.gif
+    [click] => 288
+)

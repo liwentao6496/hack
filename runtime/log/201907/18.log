@@ -1,0 +1,7 @@
+---------------------------------------------------------------
+[ 2019-07-18T13:37:02+08:00 ] 127.0.0.1 GET fastadmin.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013093s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.013965s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = 'a486f5cff636a2b9948c7c03d4736d97cdf64c4e' LIMIT 1 [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.012547s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000543s ]

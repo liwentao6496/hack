@@ -1,0 +1,2116 @@
+---------------------------------------------------------------
+[ 2019-08-04T16:23:45+08:00 ] 127.0.0.1 GET fastadmin.com/
+[运行时间：0.255586s] [吞吐率：3.91req/s] [内存消耗：3,872.97kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001357s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005512s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002739s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'click',
+  6 => 'newest',
+  7 => 'news_click',
+  8 => 'news',
+  9 => 'news_click1',
+  10 => 'news1',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054656s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.011648s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011327s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.011698s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 5 [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` ORDER BY `click` DESC LIMIT 12 [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 12 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.013677s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 5 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1,1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 6,5 [ RunTime:0.000756s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:23:46+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.124744s] [吞吐率：8.02req/s] [内存消耗：1,710.98kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006100s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:06+08:00 ] 127.0.0.1 POST fastadmin.com/index/down/search
+[运行时间：0.125067s] [吞吐率：8.00req/s] [内存消耗：3,318.13kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002679s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://fastadmin.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '16',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'search' => '啊',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001959s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->search[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011896s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010791s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010814s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000760s ]
+[ error ] [8]未定义数组索引: search[C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php:79]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:07+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/search?search=%E5%95%8A
+[运行时间：0.166057s] [吞吐率：6.02req/s] [内存消耗：3,633.52kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002865s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'search' => '啊',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003052s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->search[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\search.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'search',
+  4 => 'word',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012162s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010479s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010255s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.010541s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` WHERE  `title` LIKE '%啊%' LIMIT 1 [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `title` LIKE '%啊%' LIMIT 0,10 [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:07+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.085396s] [吞吐率：11.71req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002574s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:11+08:00 ] 127.0.0.1 POST fastadmin.com/index/down/search
+[运行时间：0.125057s] [吞吐率：8.00req/s] [内存消耗：3,318.58kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002952s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/search?search=%E5%95%8A',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://fastadmin.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '10',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'search' => 'php',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001988s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->search[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011505s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.014688s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.001057s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010983s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000676s ]
+[ error ] [8]未定义数组索引: search[C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php:79]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:11+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/search?search=php
+[运行时间：0.163501s] [吞吐率：6.12req/s] [内存消耗：3,519.86kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002795s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/search?search=%E5%95%8A',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'search' => 'php',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003382s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->search[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\search.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'search',
+  4 => 'word',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012476s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010809s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.009918s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.010100s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` WHERE  `title` LIKE '%php%' LIMIT 1 [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `title` LIKE '%php%' LIMIT 0,10 [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:11+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.088436s] [吞吐率：11.31req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002753s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:29+08:00 ] 127.0.0.1 GET fastadmin.com/
+[运行时间：0.202050s] [吞吐率：4.95req/s] [内存消耗：3,666.92kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002976s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/search?search=php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002107s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'click',
+  6 => 'newest',
+  7 => 'news_click',
+  8 => 'news',
+  9 => 'news_click1',
+  10 => 'news1',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012985s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.019378s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011672s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.011828s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 5 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` ORDER BY `click` DESC LIMIT 12 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 12 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.011485s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 5 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1,1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 6,5 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:29+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.104306s] [吞吐率：9.59req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003744s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:34+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/content/id/50
+[运行时间：0.200419s] [吞吐率：4.99req/s] [内存消耗：3,801.87kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003956s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '50',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002030s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+  4 => 'category',
+  5 => 'correlation',
+  6 => 'click',
+  7 => 'tag',
+  8 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013785s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.018809s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010716s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.011451s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.010221s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` = 66 LIMIT 8 [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` = 66 ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` = 14 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.011342s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000781s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:34+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/content/id/static/picture/aliyun-sidebar.png
+[运行时间：0.223558s] [吞吐率：4.47req/s] [内存消耗：3,516.99kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003609s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'static',
+  'picture' => 'aliyun-sidebar.png',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002671s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+  4 => 'category',
+  5 => 'correlation',
+  6 => 'click',
+  7 => 'tag',
+  8 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003789s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.013385s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.013403s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.015676s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.014949s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL LIMIT 8 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` IS NULL [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.016458s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 8 [ RunTime:0.001148s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:35+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/content/id/static/picture/enterprisehost.png
+[运行时间：0.191632s] [吞吐率：5.22req/s] [内存消耗：3,516.99kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003236s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'static',
+  'picture' => 'enterprisehost.png',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002017s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+  4 => 'category',
+  5 => 'correlation',
+  6 => 'click',
+  7 => 'tag',
+  8 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012697s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.013398s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.012127s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.012032s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.011597s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL LIMIT 8 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` IS NULL [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.011509s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000809s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:35+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.094310s] [吞吐率：10.60req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000231s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004675s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:38+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/download/id/50
+[运行时间：0.187548s] [吞吐率：5.33req/s] [内存消耗：3,305.89kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005717s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'download',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '50',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002154s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->download[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'code',
+  4 => 'msg',
+  5 => 'data',
+  6 => 'url',
+  7 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003857s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.015761s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.008178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.012146s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.015905s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] UPDATE `fa_user`  SET `score`=799993  WHERE  `id` = 1 [ RunTime:0.002500s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:38+08:00 ] 127.0.0.1 POST fastadmin.com/index/down/content/id/50
+[运行时间：0.234803s] [吞吐率：4.26req/s] [内存消耗：3,568.86kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003225s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://fastadmin.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '39',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '50',
+  'type' => 'like ',
+  'tag' => 'archives',
+  'action' => 'vote',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005721s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+  4 => 'category',
+  5 => 'correlation',
+  6 => 'click',
+  7 => 'tag',
+  8 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046711s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.014372s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.014582s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.012200s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 50 LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.013913s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` = 66 LIMIT 1 [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` = 66 LIMIT 8 [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` = 66 ORDER BY `click` DESC LIMIT 8 [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` = 14 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.012789s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000816s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:39+08:00 ] 127.0.0.1 GET fastadmin.com/static/js/theme/default/loading-0.gif
+[运行时间：0.073167s] [吞吐率：13.67req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003911s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'theme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/js/theme/default/layer.css?v=3.1.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'loading-0.gif',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:43+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/content/id/static/picture/aliyun-sidebar.png
+[运行时间：0.219063s] [吞吐率：4.56req/s] [内存消耗：3,517.09kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005723s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'static',
+  'picture' => 'aliyun-sidebar.png',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002068s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+  4 => 'category',
+  5 => 'correlation',
+  6 => 'click',
+  7 => 'tag',
+  8 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005246s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.011037s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.019326s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.019725s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.017979s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL LIMIT 8 [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL ORDER BY `click` DESC LIMIT 8 [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` IS NULL [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.017449s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:43+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/content/id/static/picture/enterprisehost.png
+[运行时间：0.215832s] [吞吐率：4.63req/s] [内存消耗：3,517.09kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006178s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'static',
+  'picture' => 'enterprisehost.png',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003715s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+  4 => 'category',
+  5 => 'correlation',
+  6 => 'click',
+  7 => 'tag',
+  8 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004819s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.018517s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.018009s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.017233s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.003505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.018297s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL LIMIT 8 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` IS NULL ORDER BY `click` DESC LIMIT 8 [ RunTime:0.002136s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` IS NULL [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.013739s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 8 [ RunTime:0.000862s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:43+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.083646s] [吞吐率：11.96req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003077s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:24:46+08:00 ] 127.0.0.1 GET fastadmin.com/index/user/index.html
+[运行时间：0.155641s] [吞吐率：6.43req/s] [内存消耗：3,522.48kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002859s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down/content/id/50',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002056s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\user\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003689s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.021323s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011225s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000836s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:24:47+08:00 ] 127.0.0.1 GET fastadmin.com/index/ajax/lang?callback=define&controllername=user&v=1564907086
+[运行时间：0.097154s] [吞吐率：10.29req/s] [内存消耗：3,297.95kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002582s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/user/index.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1564907086',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002270s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/user.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003239s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.009975s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010241s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000617s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:14+08:00 ] 127.0.0.1 GET fastadmin.com/
+[运行时间：0.177951s] [吞吐率：5.62req/s] [内存消耗：3,666.88kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003352s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/user/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002400s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'click',
+  6 => 'newest',
+  7 => 'news_click',
+  8 => 'news',
+  9 => 'news_click1',
+  10 => 'news1',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003702s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.021663s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011448s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.009660s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 5 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` ORDER BY `click` DESC LIMIT 12 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 12 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.009845s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 5 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1,1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 6,5 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:14+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.085633s] [吞吐率：11.68req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004175s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:16+08:00 ] 127.0.0.1 GET fastadmin.com/
+[运行时间：0.172667s] [吞吐率：5.79req/s] [内存消耗：3,666.55kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003137s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002821s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'click',
+  6 => 'newest',
+  7 => 'news_click',
+  8 => 'news',
+  9 => 'news_click1',
+  10 => 'news1',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011787s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.013976s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010641s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.009733s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 5 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` ORDER BY `click` DESC LIMIT 12 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 12 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.010739s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 5 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 1,1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` LIMIT 6,5 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:17+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.081812s] [吞吐率：12.22req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000111s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002730s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:18+08:00 ] 127.0.0.1 GET fastadmin.com/index/down
+[运行时间：0.182442s] [吞吐率：5.48req/s] [内存消耗：3,771.84kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003566s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001993s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'category',
+  6 => 'newest',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003672s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.018793s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010202s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.009805s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 2 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.011336s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` = 14 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 0,12 [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:18+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.108317s] [吞吐率：9.23req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003324s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:19+08:00 ] 127.0.0.1 GET fastadmin.com/index/news/
+[运行时间：0.178996s] [吞吐率：5.59req/s] [内存消耗：3,659.77kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003271s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002378s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\News.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\news\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'click',
+  4 => 'news',
+  5 => 'category_1',
+  6 => 'category_1_2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003809s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.025960s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.013436s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.013022s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `click` DESC LIMIT 2 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` WHERE  `category_id` = 87 LIMIT 1 [ RunTime:0.004352s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` WHERE  `category_id` = 87 ORDER BY `click` DESC LIMIT 5 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:19+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.068553s] [吞吐率：14.59req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002551s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:21+08:00 ] 127.0.0.1 GET fastadmin.com/index/news/content/id/33
+[运行时间：0.168168s] [吞吐率：5.95req/s] [内存消耗：3,590.52kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002805s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'news',
+    2 => 'content',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '33',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001950s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\News->content[ C:\Users\hack\Desktop\fastadmin\application\index\controller\News.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\news\content.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'content',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013151s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.010885s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010884s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_news` [ RunTime:0.010856s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_news` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:22+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/5ad44121495860.jpg
+[运行时间：0.096975s] [吞吐率：10.31req/s] [内存消耗：1,710.42kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006482s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:22+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/5ad4411ecab1c0.jpg
+[运行时间：0.097200s] [吞吐率：10.29req/s] [内存消耗：1,710.42kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006606s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:22+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/aliyun-sidebar.png
+[运行时间：0.100166s] [吞吐率：9.98req/s] [内存消耗：1,710.42kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007058s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:22+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/enterprisehost.png
+[运行时间：0.126777s] [吞吐率：7.89req/s] [内存消耗：1,710.42kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004040s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:22+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.076326s] [吞吐率：13.10req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002507s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:23+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/5ad441258ab510.png
+[运行时间：0.087125s] [吞吐率：11.48req/s] [内存消耗：1,710.42kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003942s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:23+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/1f8e0b12d1e24cc5854e56392af4ea42.gif
+[运行时间：0.088405s] [吞吐率：11.31req/s] [内存消耗：1,710.56kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003406s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:23+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/avatar.png
+[运行时间：0.078122s] [吞吐率：12.80req/s] [内存消耗：1,710.38kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000206s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003536s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:23+08:00 ] 127.0.0.1 GET fastadmin.com/skin/static/picture/howto.png
+[运行时间：0.078797s] [吞吐率：12.69req/s] [内存消耗：1,710.38kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000153s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003448s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'skin',
+    1 => 'static',
+    2 => 'picture',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:31+08:00 ] 127.0.0.1 GET fastadmin.com/index/down
+[运行时间：0.178906s] [吞吐率：5.59req/s] [内存消耗：3,593.41kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003084s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/news/content/id/33',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002217s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'category',
+  6 => 'newest',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004179s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.011536s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011364s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.011862s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 2 [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.011766s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` = 14 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 0,12 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:32+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.099778s] [吞吐率：10.02req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005019s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:25:54+08:00 ] 127.0.0.1 GET fastadmin.com/index/down?page=2
+[运行时间：0.194870s] [吞吐率：5.13req/s] [内存消耗：3,597.26kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003104s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003424s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->index[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'level',
+  4 => 'limit',
+  5 => 'category',
+  6 => 'newest',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003510s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.011295s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.011250s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.011193s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 9 LIMIT 2 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `level` = 8 LIMIT 4 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.012351s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `pid` = 14 [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` LIMIT 12,12 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:25:54+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.109117s] [吞吐率：9.16req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005770s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:26:04+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/lists.html?id=22
+[运行时间：0.222840s] [吞吐率：4.49req/s] [内存消耗：3,585.10kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004424s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '22',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002453s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->lists[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\lists.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'list',
+  4 => 'category_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045413s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.011263s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.010363s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.011262s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` WHERE  `category_id` = 22 LIMIT 1 [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` = 22 LIMIT 0,12 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.010704s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000447s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:26:04+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.066116s] [吞吐率：15.12req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002498s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:26:07+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.126300s] [吞吐率：7.92req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017299s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:26:15+08:00 ] 127.0.0.1 GET fastadmin.com/index/down/lists.html?id=23
+[运行时间：0.185910s] [吞吐率：5.38req/s] [内存消耗：3,451.39kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003648s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'down',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/index/down?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '23',
+)
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002387s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Down->lists[ C:\Users\hack\Desktop\fastadmin\application\index\controller\Down.php ]
+[ info ] [ VIEW ] C:\Users\hack\Desktop\fastadmin\public/../application/index\view\down\lists.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'list',
+  4 => 'category_name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004226s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user_token` [ RunTime:0.012144s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user_token` WHERE  `token` = '99495bf931c89982cc1292601e6c99e6751b62aa' LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.012733s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_down` [ RunTime:0.013984s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_down` WHERE  `category_id` = 23 LIMIT 1 [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_down` WHERE  `category_id` = 23 LIMIT 0,12 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_category` [ RunTime:0.012372s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_category` WHERE  `id` = 23 LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2019-08-04T16:26:15+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.066914s] [吞吐率：14.94req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002533s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-04T16:26:16+08:00 ] 127.0.0.1 GET fastadmin.com/static/fonts/ee1e53fdec284bea86224ecfabd2a263.woff
+[运行时间：0.123251s] [吞吐率：8.11req/s] [内存消耗：1,711.03kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002811s ]
+[ info ] [ LANG ] C:\Users\hack\Desktop\fastadmin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'ee1e53fdec284bea86224ecfabd2a263.woff',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=1; token=62e90da8-39d6-4b2c-b391-36483813cdb5; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://fastadmin.com/static/css/font_1104524_z1zcv22ej09.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36',
+  'origin' => 'http://fastadmin.com',
+  'connection' => 'close',
+  'host' => 'fastadmin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

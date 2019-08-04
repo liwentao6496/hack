@@ -1,0 +1,89 @@
+{include file='public/head'}
+
+
+
+<div class="container" id="content-container">
+
+    <h1 class="category-title">
+        智能设备        <div class="more pull-right">
+        <ol class="breadcrumb">
+            <!-- S 面包屑导航 -->
+            <li><a href="/">首页</a></li>
+            <li><a href="/cms/c/product.html">源码下载</a></li>
+            <li><a href="/index/down/content/id/id/{$category_name['id']}">{$category_name['name']}</a></li>
+            <!-- E 面包屑导航 -->
+        </ol>
+    </div>
+    </h1>
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <span>{$category_name['name']}</span>
+
+                        <div class="more">
+                            <ul class="list-unstyled list-inline category-order clearfix">
+                                <!-- S 排序 -->
+                                <li><a href="?filter=&id=8&diyname=wearable&orderby=default&orderway=asc" class="active">默认</a></li>
+                                <li><a href="?filter=&id=8&diyname=wearable&orderby=views&orderway=desc" class="">浏览次数</a></li>
+                                <li><a href="?filter=&id=8&diyname=wearable&orderby=id&orderway=desc" class="">发布日期</a></li>
+                                <!-- E 排序 -->
+                            </ul>
+                        </div>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="product-list">
+                        <div class="row">
+                            <!-- S 列表 -->
+                            {volist name='list' id='vo'}
+                            <div class="col-sm-4 col-md-3 product-item">
+                                <div class="card">
+                                    <div class="thumb">
+                                        <a href="/index/down/content/id/{$vo.id}" class="preview-link">
+                                            <div class="embed-responsive embed-responsive-4by3">
+                                                <img src="{$vo.picrure}" alt="">
+                                            </div>
+                                        </a>
+                                        <a href="/index/down/content/id/{$vo.id}" class="quickview-link"><i class="fa fa-search"></i></a>
+                                    </div>
+                                    <div class="title">
+                                        <h2><a href="/index/down/content/id/{$vo.id}" style="font-weight:bold;color:#162ceb;">{$vo.title}</a></h2>
+                                    </div>
+                                    <div class="operate">
+                                        <div class="pull-left text-gray">
+                                            <div class="mt-1">
+                    <span class="">
+                        <i class="fa fa-eye"></i> {$vo.click}                    </span>
+
+                                            </div>
+                                        </div>
+                                        <div class="pull-right">
+                                            <a href="/index/down/content/id/{$vo.id}" class="btn btn-primary detail">查看详情</a>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            {/volist}
+                            <!-- S 列表 -->
+                        </div>
+                        <!-- S 分页栏 -->
+                        <div class="text-center pager">
+                            {$list->render()}
+                        </div>
+                        <!-- E 分页栏 -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{include file='public/footer'}
